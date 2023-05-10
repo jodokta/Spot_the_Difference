@@ -19,6 +19,16 @@ span{
     display: block;
 }
 
-button{
+.button{
     margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+label{
+    cursor: pointer;
+
+}
+#chooseFile{
+    visibility: hidden;
 }

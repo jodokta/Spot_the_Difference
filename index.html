@@ -13,8 +13,14 @@
         <span>the</span> 
         <span>Difference</span>
     </h1>
-    <button>
-        Upload
-    </button>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div class="button">
+            <label for="chooseFile">
+                Image Upload
+            </label>
+        </div>
+        <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
+        <script src=""> </script>
+    </form>
 </body>
 </html>
